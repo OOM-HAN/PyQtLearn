@@ -7,6 +7,7 @@ if __name__ == '__main__':
     w = QWidget()
     w.resize(300, 300)
     w.move(300, 300)
+    w.resize(500,500)
     w.setWindowTitle('第一个PyQt5的桌面应用')
     w.show()
     sys.exit(app.exec_())
